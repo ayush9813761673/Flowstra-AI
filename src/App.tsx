@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from '@/components/ui/header-2';
+import { Navbar } from '@/components/ui/mini-navbar';
 import { CinematicHero } from '@/components/ui/cinematic-landing-hero';
 import { TrustedBy } from './components/TrustedBy';
 import { Solutions } from './components/Solutions';
@@ -16,7 +16,7 @@ import { WhatsAppButton } from './components/WhatsAppButton';
 export default function App() {
   return (
     <div className="min-h-screen selection:bg-[var(--accent-blue)] selection:text-white overflow-x-hidden">
-      <Header />
+      <Navbar />
       <main>
         <CinematicHero 
           brandName="Flowstra"
