@@ -21,7 +21,7 @@ export default function App() {
         <CinematicHero 
           brandName="Flowstra"
           tagline1="Automate your flow,"
-          tagline2="get more clients."
+          tagline2="Get more clients."
           cardHeading="AI infrastructure."
           cardDescription="Stop chasing leads and start closing them with automated qualification and routing. No more manual triage, just sales-ready meetings."
           metricValue={100}

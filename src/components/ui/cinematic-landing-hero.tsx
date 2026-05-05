@@ -221,10 +221,10 @@ export interface CinematicHeroProps extends React.ComponentProps<"div"> {
 }
 
 export function CinematicHero({ 
-  brandName = "Sobers",
-  tagline1 = "Track the journey,",
-  tagline2 = "not just the days.",
-  cardHeading = "Accountability, redefined.",
+  brandName = "Flowstra",
+  tagline1 = "Automate your flow,",
+  tagline2 = "Get more clients.",
+  cardHeading = "AI infrastructure.",
   cardDescription = <><span className="text-white font-semibold">Sobers</span> empowers sponsors and sponsees in 12-step recovery programs with structured accountability, precise sobriety tracking, and beautiful visual timelines.</>,
   metricValue = 365,
   metricLabel = "Days Sober",

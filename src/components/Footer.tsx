@@ -59,7 +59,7 @@ export function Footer() {
   ];
 
   // Social media icons (hidden for now)
-  const socialLinks: { icon: JSX.Element; label: string; href: string }[] = [];
+  const socialLinks: { icon: React.ReactNode; label: string; href: string }[] = [];
 
   return (
     <footer className="bg-[rgba(5,5,10,0.4)] relative h-fit rounded-[32px] overflow-hidden m-6 border border-[var(--card-border)]">
