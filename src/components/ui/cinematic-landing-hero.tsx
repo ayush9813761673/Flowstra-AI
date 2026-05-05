@@ -225,11 +225,11 @@ export function CinematicHero({
   tagline1 = "Automate your flow,",
   tagline2 = "Get more clients.",
   cardHeading = "AI infrastructure.",
-  cardDescription = <><span className="text-white font-semibold">Sobers</span> empowers sponsors and sponsees in 12-step recovery programs with structured accountability, precise sobriety tracking, and beautiful visual timelines.</>,
-  metricValue = 365,
-  metricLabel = "Days Sober",
-  ctaHeading = "Start your recovery.",
-  ctaDescription = "Join thousands of others in the 12-step program and take control of your timeline today.",
+  cardDescription = <><span className="text-white font-semibold">Flowstra</span> builds your inbound revenue engine from lead intake to CRM sync.</>,
+  metricValue = 100,
+  metricLabel = "Leads Synced",
+  ctaHeading = "Automate now.",
+  ctaDescription = "Stop chasing leads and start closing them with automated qualification and routing.",
   className, 
   ...props 
 }: CinematicHeroProps) {
